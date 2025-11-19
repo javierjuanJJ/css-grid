@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* Estilos preliminares del contenedor */
+        .container {
+            background: salmon;
+            /* Color de fondo del contenedor */
+            border: negro;
+            /* Borde del contenedor */
+            border-radius:
+                /* se menciona el uso */
+                1px;
+
+            /* Activación del motor Grid */
+            display: grid;
+
+            /* Ajuste de altura (para visualización) */
+            min-height: 100vh;
+            /* Ocupa toda la altura visible del viewport */
+        }
+
+        /* Estilos de los elementos internos (dips) */
+        .container div {
+            background: lightBlue;
+            border: 2px solid #09f;
+            border-radius: 6px;
+        }
+
+        /* Ejemplo de estilo para el primer hijo */
+        .first-child {
+            background: lightGreen;
+            border: 2px solid Green
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div></div>
+        <div class="first-child"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 </body>
+
 </html>
