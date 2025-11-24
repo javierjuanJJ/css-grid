@@ -22,6 +22,8 @@
             /* Ajuste de altura (para visualización) */
             min-height: 100vh;
             /* Ocupa toda la altura visible del viewport */
+
+            grid-template-columns: 100px 100px 100px;	
         }
 
         /* Estilos de los elementos internos (dips) */
@@ -36,6 +38,27 @@
             background: lightGreen;
             border: 2px solid Green
         }
+
+        /*
+        Esta propiedad define la estructura horizontal de la cuadrícula.
+Tipo de Unidad	
+Ejemplo de Código	
+Fuentes
+Ancho Fijo (Píxeles)	
+grid-template-columns: 100px 100px 100px;	
+Ancho Automático	
+grid-template-columns: auto 20px 100px;	
+Fracción (fr)	
+grid-template-columns: 1fr 1fr 1fr;	
+Proporcional (Fracciones)	
+grid-template-columns: 1fr 2fr;	
+Combinado (Fijo + Fracción)	
+grid-template-columns: 1fr 100px 50px;	
+Combinado Avanzado	
+grid-template-columns: 50% 100px auto 10vw;
+        
+        */
+
     </style>
 </head>
 
